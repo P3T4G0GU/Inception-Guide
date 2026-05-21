@@ -73,7 +73,7 @@ docker compose version
 
 Also install make:
 ```bash
-apt-get install -y make
+sudo apt-get install -y make
 ```
 
 ---
