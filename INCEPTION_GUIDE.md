@@ -61,7 +61,7 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plu
 
 Add your user to the docker group so you don't need sudo every time:
 ```bash
- usermod -aG docker $USER
+sudo usermod -aG docker $USER
 newgrp docker
 ```
 
