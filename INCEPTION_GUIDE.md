@@ -198,8 +198,6 @@ EXPOSE 9000
 ENTRYPOINT ["/docker-entrypoint.sh"]
 ```
 
-> Important: use `curl -L` and download directly to `/usr/local/bin/wp` in one step. The original `curl -O` approach fails silently and wp won't be found when the container runs.
-
 **How Dockerfiles work (explained simply):**
 
 `FROM debian:bookworm` — Start from a clean Debian OS. Like a fresh Linux install with nothing on it.
